@@ -1,0 +1,32 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    img {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin-right: 10px;
+            list-style: none;
+            
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}

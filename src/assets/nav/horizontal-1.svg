@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_72" data-name="Group 72" transform="translate(-39 -4)">
+    <rect id="Rectangle_413" data-name="Rectangle 413" width="24" height="24" transform="translate(39 4)" fill="none"/>
+    <g id="bx-pie-chart-alt" transform="translate(37 2)">
+      <path id="Path_58" data-name="Path 58" d="M13.758,4a9.758,9.758,0,1,0,6.9,2.858A9.7,9.7,0,0,0,13.758,4Zm5.52,15.278a7.807,7.807,0,1,1-6.5-13.259v7.739a.976.976,0,0,0,.976.976H21.5A7.735,7.735,0,0,1,19.278,19.278Zm-4.544-6.5V6.012a7.809,7.809,0,0,1,6.77,6.77Z" fill="#5f5f5f"/>
+    </g>
+  </g>
+</svg>

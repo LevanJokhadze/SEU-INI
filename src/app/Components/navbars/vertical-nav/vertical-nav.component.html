@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="header">
+        <img src="assets/nav/horizontal-2.svg" alt="">
+        <p>{{ name }}</p>
+    </div>
+    <div class="items">
+    <ul>
+        <li>
+            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Main</a>
+        </li>
+        
+        <li>
+            <a routerLink="calendar" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Calendar</a>
+        </li>
+        <li>
+            <a routerLink="dchancellery" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Digital chancellery</a>
+        </li>
+        <li>
+            <a routerLink="elearning" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">E learning</a>
+        </li>
+    </ul>
+    </div>
+</div>
