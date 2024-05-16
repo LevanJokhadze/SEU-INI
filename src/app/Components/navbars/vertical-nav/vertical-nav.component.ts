@@ -10,4 +10,5 @@ import { RouterModule } from '@angular/router';
 })
 export class VerticalNavComponent {
   name = "Levan Jokhadze";
+  navHeader = "Manegment of human resource";
 }

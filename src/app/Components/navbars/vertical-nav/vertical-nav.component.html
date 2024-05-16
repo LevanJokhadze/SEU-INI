@@ -1,23 +1,55 @@
-<div class="container">
-    <div class="header">
-        <img src="assets/nav/horizontal-2.svg" alt="">
-        <p>{{ name }}</p>
-    </div>
-    <div class="items">
-    <ul>
-        <li>
-            <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Main</a>
-        </li>
-        
-        <li>
-            <a routerLink="calendar" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Calendar</a>
-        </li>
-        <li>
-            <a routerLink="dchancellery" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Digital chancellery</a>
-        </li>
-        <li>
-            <a routerLink="elearning" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">E learning</a>
-        </li>
-    </ul>
+
+<div class="cont">
+    <div class="content">
+        <div class="header">
+            <div class="head-cont">
+                <div class="hd-c">
+                    <img class="logo" src="assets/logo.png" alt="">
+                    <h1 class="p-3 pl-3 fs-5 fw-bold">{{ name }}</h1>
+                </div>
+                <div class="close">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+            </div>
+            <p class="pt-1 fw-bold">{{ navHeader }}</p>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 93.svg" alt="">მთავარი</a>
+                </li>
+                <li>
+                    <a routerLink="calendar" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 96.svg"
+                            alt="">კალენდარი</a>
+                </li>
+                <li>
+                    <a routerLink="dchancellery" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 94.svg" alt="">ელ.კანცელარია</a>
+                </li>
+                <li>
+                    <a routerLink="elearning" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 98.svg"
+                            alt="">ელ.სწავლება</a>
+                </li>
+                <li>
+                    <a routerLink="1" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 100.svg"
+                            alt="">საგანმანათლებლო პროგრამა</a>
+                </li>
+                <li>
+                    <a routerLink="2" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 101.svg"
+                            alt="">სასწავლო ბარათი</a>
+                </li>
+                <li>
+                    <a routerLink="3" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 104.svg"
+                            alt="">ცხრილი</a>
+                </li>
+                <li>
+                    <a routerLink="4" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><img src="assets/nav-img/Group 101.svg"
+                            alt="">აკადემიური რეგისტრაცია</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+        </div>
     </div>
 </div>

@@ -3,7 +3,6 @@ body, html, * {
     margin: 0;
 }
 
-
 // Secondary Gray
 .gr-sec-bg {
     background-color: #f1f1f1;
@@ -12,31 +11,26 @@ body, html, * {
 .main-container {
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 100px 1fr; 
+    grid-template-rows: 60px 1fr; 
     height: 100vh;
     padding: 0;
     margin: 0;
 
-    div {
-        text-align: center;
-    }
-
     .vertical {
         background-color: #333;
-        padding: 20px;
-        grid-column: 1; /* Positioned at the first column */
         grid-row: 1 / span 2;
-        width: 300px;
+        width: 360px;
         padding: 0;
         margin: 0;
     }
 
     .horizontal {
-        height: 100px;
+        height: 50px;
         grid-column: 2 / -1; /* Positioned from the second column to the end */
         grid-row: 1;
         width: 90%;
-        margin-left: 100px;
+        place-self: center;
+        padding-left: 20px;
     }
 
     .content {
