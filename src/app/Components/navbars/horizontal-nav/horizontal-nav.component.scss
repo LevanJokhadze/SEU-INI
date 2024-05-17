@@ -1,32 +1,40 @@
 .section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative; /* Set the section to relative positioning */
 
-    h1 {
-        font-size: 1.3em;
-    }
+  h1 {
+      font-size: 1.3em;
+      font-weight: bolder;
+  }
 
-    img {
-        border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        cursor: pointer;
-    }
+  .logo {
+      position: absolute; /* Set the logo to absolute positioning */
+      left: 50%; /* Position the logo at the center */
+      transform: translateX(-50%); /* Center the logo horizontally */
+  }
 
-    ul {
-        display: flex;
-        align-items: center;
+  img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+  }
 
-        li {
-            margin-right: 10px;
-            list-style: none;
-            
-            img {
-                width: 30px;
-                height: 30px;
-            }
-        }
-    }
+  ul {
+      display: flex;
+      align-items: center;
+
+      li {
+          margin-right: 10px;
+          list-style: none;
+
+          img {
+              width: 30px;
+              height: 30px;
+          }
+      }
+  }
 }

@@ -5,31 +5,31 @@ import { DchancelleryComponent } from "@pages/dchancellery/dchancellery.componen
 import { ElearningComponent } from "@pages/elearning/elearning.component";
 
 const routeConfig: Routes = [
-    {
-        path: "",
-        component: HomeComponent,
-        title: "Main",
-        data: {title: "Main"}
-    },
-    {
-        path: "calendar",
-        component: CalendarComponent,
-        title: "Calendar",
-        data: {title: "Calendar"}
-    },
-    {
-        path: "dchancellery",
-        component: DchancelleryComponent,
-        title: "Digital Chancellery",
-        data: {title: "Digital Chancellery"}
-    },
-    {
-        path: "elearning",
-        component: ElearningComponent,
-        title: "E Learning",
-        data: {title: "E Learning"}
+  {
+    path: "",
+    component: HomeComponent,
+    title: "მთავარი",
+    data: {title: "მთავარი"}
+},
+{
+    path: "calendar",
+    component: CalendarComponent,
+    title: "კალენდარი",
+    data: {title: "კალენდარი"}
+},
+{
+    path: "dchancellery",
+    component: DchancelleryComponent,
+    title: "ელ. კანცელარია",
+    data: {title: "ელ. კანცელარია"}
+},
+{
+    path: "elearning",
+    component: ElearningComponent,
+    title: "ელ. სწავლება",
+    data: {title: "ელ. სწავლება"}
 
-    }
+}
 ];
 
 export default routeConfig;

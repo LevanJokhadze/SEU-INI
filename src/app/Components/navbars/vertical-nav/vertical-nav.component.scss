@@ -1,6 +1,7 @@
 
 .active {
-    background-color: red;
+    background-color: #fd5e2c;
+    border-radius: 12px;
 }
 
 
@@ -37,7 +38,7 @@
                 height: 60px;
                 border-radius: 50%;
                 border: solid gray 2px;
-            }   
+            }
         }
     }
 }
@@ -47,9 +48,10 @@
         padding: 0;
     }
     li {
-        padding: 15px;
+        padding: 10px;
         list-style: none;
         font-weight: bold;
+        cursor: pointer;
         a {
             text-decoration: none;
             img {
@@ -66,7 +68,7 @@
     text-decoration: none;
     color: gray;
   }
-  
+
   .nav ul li.active a {
     color: black; /* Change to desired active color */
     font-weight: bold;

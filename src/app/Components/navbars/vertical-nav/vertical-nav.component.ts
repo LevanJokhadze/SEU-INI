@@ -9,6 +9,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './vertical-nav.component.scss'
 })
 export class VerticalNavComponent {
-  name = "Levan Jokhadze";
-  navHeader = "Manegment of human resource";
+  name = "რატი რატიანი";
+  navHeader = "ადამიანური რესურსების მართვა";
 }

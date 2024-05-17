@@ -1,0 +1,24 @@
+.first-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  div{
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+
+  }
+
+  .item-1 {
+    flex-grow: 9; // Takes up 6 times more space than item-2
+    width: 220px;
+    height: 230px;
+  }
+
+  .item-2 {
+    flex-grow: 1; // Takes up 1 time more space than item-1
+    width: 220px;
+    height: 230px;
+  }
+}
